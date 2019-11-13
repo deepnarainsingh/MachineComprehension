@@ -68,7 +68,7 @@ Two different metrics were used to evaluate model accuracy.
 * Exact Match : Percentage of predictions that matches the exact ground truth.
 * F1 Score : It measures the average overlap between the the prediction and ground truth answer. Prediction and ground truth were treated as bag of tokens and compute their F1 score.
 
-# Result Analysis
+## Result Analysis
 
 * Feature Ablation : In order to understand the features that are responsible for the performance of logistic regression model feature ablation was performed where one group of feature was removed from the model at a given time. Results showed that lexicalized and dependency tree path features are most important.
 
